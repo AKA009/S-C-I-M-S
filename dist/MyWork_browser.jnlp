@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="MyWork_browser.jnlp">
+  <information>
+    <title>MyWork</title>
+    <vendor>jiao</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="MyWork.jar" size="111948" download="eager" />
+    <jar href="lib\AbsoluteLayout.jar" size="2850" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.45-bin.jar" size="999810" download="eager" />
+    <jar href="lib\swing-layout-1.0.3.jar" size="118103" download="eager" />
+  </resources>
+  <applet-desc  width="0" height="0" main-class="mywork.view.LogOnFrm"  name="MyWork" >
+  </applet-desc>
+  <update check="background"/>
+</jnlp>
